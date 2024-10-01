@@ -9,7 +9,7 @@
         private Precinct precinct;
         private Taxi? _isChasing;
 
-        public PoliceCar(string plate, Precinct precinct_var, SpeedRadar? _speedRadar) : base(typeOfVehicle, plate)
+        public PoliceCar(string plate, Precinct precinct_var, SpeedRadar? _speedRadar=null) : base(typeOfVehicle, plate)
         {
             isPatrolling = false;
             _isChasing = null;

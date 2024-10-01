@@ -26,3 +26,4 @@ C:\Users\Blanca López-Jorrín\Desktop\3º iMat\Paradigmas\P1\P1-vehicle_example
 C:\Users\Blanca López-Jorrín\Desktop\3º iMat\Paradigmas\P1\P1-vehicle_example\bin\Debug\net8.0\Practice1.pdb
 C:\Users\Blanca López-Jorrín\Desktop\3º iMat\Paradigmas\P1\P1-vehicle_example\obj\Debug\net8.0\Practice1.genruntimeconfig.cache
 C:\Users\Blanca López-Jorrín\Desktop\3º iMat\Paradigmas\P1\P1-vehicle_example\obj\Debug\net8.0\ref\Practice1.dll
+C:\Users\Blanca López-Jorrín\Desktop\3º iMat\Paradigmas\P1\P1-vehicle_example\obj\Debug\net8.0\Practice1.sourcelink.json

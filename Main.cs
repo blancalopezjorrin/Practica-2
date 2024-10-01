@@ -15,7 +15,8 @@
             Precinct precinct = new Precinct("com", city);
             Console.WriteLine(precinct.WriteMessage("Created"));
 
-            PoliceCar policeCar1 = new PoliceCar("0001 CNP", precinct);
+            SpeedRadar radar1 = new SpeedRadar();
+            PoliceCar policeCar1 = new PoliceCar("0001 CNP", precinct, radar1);
 
             PoliceCar policeCar2 = new PoliceCar("0002 CNP", precinct);
 
