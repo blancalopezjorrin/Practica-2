@@ -40,6 +40,7 @@
             taxi1.StopRide();
             taxi1.StopRide();
             policeCar1.EndPatrolling();
+            taxi1.StartRide();
 
             policeCar1.PrintRadarHistory();
             policeCar2.PrintRadarHistory();
