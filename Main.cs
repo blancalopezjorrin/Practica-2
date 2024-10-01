@@ -19,6 +19,7 @@
             PoliceCar policeCar1 = new PoliceCar("0001 CNP", precinct, radar1);
 
             PoliceCar policeCar2 = new PoliceCar("0002 CNP", precinct);
+            Scooter scooter = new Scooter();
 
             Console.WriteLine(taxi1.WriteMessage("Created"));
             Console.WriteLine(taxi2.WriteMessage("Created"));

@@ -1,16 +1,13 @@
 ﻿namespace Practice1
 {
-    abstract class Vehicle : IMessageWritter
+    abstract class Vehicle : UnregisteredVehicle
     {
-        private string typeOfVehicle;
         private string plate;
-        private float speed;
 
-        public Vehicle(string typeOfVehicle, string plate)
+        public Vehicle(string typeOfVehicle, string plate) : base(typeOfVehicle)
         {
-            this.typeOfVehicle = typeOfVehicle;
             this.plate = plate;
-            speed = 0f;
+            SetTypeOfVehicle(typeOfVehicle);
         }
 
         //Override ToString() method with class information
@@ -19,31 +16,17 @@
             return $"{GetTypeOfVehicle()} with plate {GetPlate()}";
         }
 
-        public string GetTypeOfVehicle()
-        {
-            return typeOfVehicle;
-        }
-
         public string GetPlate()
         {
             return plate;
         }
 
 
-        public float GetSpeed()
-        {
-            return speed;
-        }
-
-        public void SetSpeed(float speed)
-        {
-            this.speed = speed;
-        }
-
         //Implment interface with Vechicle message structure
-        public string WriteMessage(string message)
+        public override string WriteMessage(string message)
         {
-            return $"{this}: {message}";
+            // Incorporamos tanto el tipo de vehículo como la placa en el mensaje
+            return $"{GetTypeOfVehicle()} with plate {GetPlate()}: {message}";
         }
     }
 }
