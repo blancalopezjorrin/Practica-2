@@ -5,15 +5,15 @@
         //constant string as TypeOfVehicle wont change allong PoliceCar instances
         private const string typeOfVehicle = "Police Car"; 
         private bool isPatrolling;
-        private SpeedRadar speedRadar;
+        private SpeedRadar? speedRadar;
         private Precinct precinct;
         private Taxi? _isChasing;
 
-        public PoliceCar(string plate, Precinct precinct_var) : base(typeOfVehicle, plate)
+        public PoliceCar(string plate, Precinct precinct_var, SpeedRadar? _speedRadar) : base(typeOfVehicle, plate)
         {
             isPatrolling = false;
             _isChasing = null;
-            speedRadar = new SpeedRadar();
+            speedRadar = _speedRadar;
             precinct = precinct_var;
             precinct.RegisterPoliceCar(this);
         }
@@ -22,10 +22,14 @@
         {
             if (isPatrolling)
             {
-                bool above = speedRadar.TriggerRadar(vehicle);
-                string meassurement = speedRadar.GetLastReading();
-                Console.WriteLine(WriteMessage($"Triggered radar. Result: {meassurement}"));
-                if (above ) { precinct.ActivateAlarm(this, vehicle); }
+                if (speedRadar != null) 
+                {
+                    bool illegal = speedRadar.TriggerRadar(vehicle);
+                    string meassurement = speedRadar.GetLastReading();
+                    Console.WriteLine(WriteMessage($"Triggered radar. Result: {meassurement}"));
+                    if (illegal) { precinct.ActivateAlarm(this, vehicle); }
+                }
+                else { Console.WriteLine(WriteMessage("does not have a speed radar.")); }
             }
             else
             {
@@ -74,11 +78,15 @@
 
         public void PrintRadarHistory()
         {
-            Console.WriteLine(WriteMessage("Report radar speed history:"));
-            foreach (float speed in speedRadar.SpeedHistory)
+            if (speedRadar != null) 
             {
-                Console.WriteLine(speed);
+                Console.WriteLine(WriteMessage("Report radar speed history:"));
+                foreach (float speed in speedRadar.SpeedHistory)
+                {
+                    Console.WriteLine(speed);
+                }
             }
+            else { Console.WriteLine(WriteMessage("does not have a speed radar.")); }
         }
 
         public void EnterAlarmMode(Taxi taxiOffender)
