@@ -8,12 +8,12 @@
             City city = new City("Madrid");
             Console.WriteLine(city.WriteMessage("Created"));
 
+            Precinct precinct = new Precinct("Precinct 1", city);
+            Console.WriteLine(precinct.WriteMessage("Created"));
+
             Taxi taxi1 = new Taxi("0001 AAA", city);
             Taxi taxi2 = new Taxi("0002 BBB", city);
 
-
-            Precinct precinct = new Precinct("com", city);
-            Console.WriteLine(precinct.WriteMessage("Created"));
 
             SpeedRadar radar1 = new SpeedRadar();
             PoliceCar policeCar1 = new PoliceCar("0001 CNP", precinct, radar1);

@@ -17,7 +17,7 @@ namespace Practice1
             _name = name;
         }
 
-        public string cityName()
+        public string CityName()
         {
             return _name;
         }
@@ -25,7 +25,7 @@ namespace Practice1
         //Override ToString() method with class information
         public override string ToString()
         {
-            return $"City {cityName()}";
+            return $"City {CityName()}";
         }
 
         public string WriteMessage(string message)

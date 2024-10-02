@@ -5,31 +5,16 @@ namespace Practice1
     internal class Precinct
     {
         private string _name;
-        private List<PoliceCar> ListPoliceCars;
+        private List<PoliceCar> _listPoliceCars;
         private bool _alarm;
         private City _city;
 
         public Precinct(string name, City city)
         {
             _name = name;
-            ListPoliceCars = new List<PoliceCar>();
+            _listPoliceCars = new List<PoliceCar>();
             _alarm = false;
             _city = city;
-        }
-
-        public string precinctName()
-        {
-            return _name;
-        }
-
-        public string cityName()
-        {
-            return _city.cityName();
-        }
-
-        public List<PoliceCar> listPoliceCars()
-        {
-            return ListPoliceCars;
         }
 
 
@@ -42,7 +27,7 @@ namespace Practice1
 
         public void RegisterPoliceCar(PoliceCar coche)
         {
-            ListPoliceCars.Add(coche);
+            _listPoliceCars.Add(coche);
             Console.WriteLine(WriteMessage($"registered PoliceCar with plate {coche.GetPlate()}"));
 
         }
@@ -52,7 +37,7 @@ namespace Practice1
             this.Alarm = true;
             Console.WriteLine(WriteMessage($"Alarm activated by {Police.GetPlate()} to chase {taxiOffender.GetPlate()}"));
 
-            foreach (PoliceCar coche in ListPoliceCars)
+            foreach (PoliceCar coche in _listPoliceCars)
             {
                 if (coche.IsPatrolling())
                 {
@@ -67,7 +52,7 @@ namespace Practice1
             _city.WithdrawTaxiLicense(taxiOffender);
             Console.WriteLine(WriteMessage($"Alarm deactivated police car {Police.GetPlate()}. Arrested {taxiOffender.GetPlate()}"));
 
-            foreach (PoliceCar coche in ListPoliceCars)
+            foreach (PoliceCar coche in _listPoliceCars)
             {
                 coche.isChasing = null;
             }
@@ -77,7 +62,7 @@ namespace Practice1
         //Override ToString() method with class information
         public override string ToString()
         {
-            return $"Precinct {precinctName()} in {cityName()}";
+            return $"Precinct {_name} in {_city.CityName()}";
         }
 
         public string WriteMessage(string message)
