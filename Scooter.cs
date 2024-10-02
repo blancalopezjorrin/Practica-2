@@ -16,10 +16,7 @@ namespace Practice1
             SetTypeOfVehicle(typeOfVehicle);
             Console.WriteLine(WriteMessage("Created"));
         }
-        public override string ToString()
-        {
-            return $"{GetTypeOfVehicle()}";
-        }
+
 
     }
 }

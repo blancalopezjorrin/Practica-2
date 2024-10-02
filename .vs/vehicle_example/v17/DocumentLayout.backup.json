@@ -7,12 +7,24 @@
       "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\blanca l\u00F3pez-jorr\u00EDn\\desktop\\3\u00BA imat\\paradigmas\\p1\\p1-vehicle_example\\policecar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:policecar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\blanca l\u00F3pez-jorr\u00EDn\\desktop\\3\u00BA imat\\paradigmas\\p1\\p1-vehicle_example\\unregisteredvehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:unregisteredvehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\blanca l\u00F3pez-jorr\u00EDn\\desktop\\3\u00BA imat\\paradigmas\\p1\\p1-vehicle_example\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\blanca l\u00F3pez-jorr\u00EDn\\desktop\\3\u00BA imat\\paradigmas\\p1\\p1-vehicle_example\\scooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:scooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\blanca l\u00F3pez-jorr\u00EDn\\desktop\\3\u00BA imat\\paradigmas\\p1\\p1-vehicle_example\\taxi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:taxi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\blanca l\u00F3pez-jorr\u00EDn\\desktop\\3\u00BA imat\\paradigmas\\p1\\p1-vehicle_example\\speedradar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,14 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\blanca l\u00F3pez-jorr\u00EDn\\desktop\\3\u00BA imat\\paradigmas\\p1\\p1-vehicle_example\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\blanca l\u00F3pez-jorr\u00EDn\\desktop\\3\u00BA imat\\paradigmas\\p1\\p1-vehicle_example\\taxi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:taxi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\blanca l\u00F3pez-jorr\u00EDn\\desktop\\3\u00BA imat\\paradigmas\\p1\\p1-vehicle_example\\scooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:scooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,43 +46,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Vehicle.cs",
-              "DocumentMoniker": "C:\\Users\\Blanca L\u00F3pez-Jorr\u00EDn\\Desktop\\3\u00BA iMat\\Paradigmas\\P1\\P1-vehicle_example\\Vehicle.cs",
-              "RelativeDocumentMoniker": "Vehicle.cs",
-              "ToolTip": "C:\\Users\\Blanca L\u00F3pez-Jorr\u00EDn\\Desktop\\3\u00BA iMat\\Paradigmas\\P1\\P1-vehicle_example\\Vehicle.cs",
-              "RelativeToolTip": "Vehicle.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBIAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "PoliceCar.cs",
+              "DocumentMoniker": "C:\\Users\\Blanca L\u00F3pez-Jorr\u00EDn\\Desktop\\3\u00BA iMat\\Paradigmas\\P1\\P1-vehicle_example\\PoliceCar.cs",
+              "RelativeDocumentMoniker": "PoliceCar.cs",
+              "ToolTip": "C:\\Users\\Blanca L\u00F3pez-Jorr\u00EDn\\Desktop\\3\u00BA iMat\\Paradigmas\\P1\\P1-vehicle_example\\PoliceCar.cs*",
+              "RelativeToolTip": "PoliceCar.cs*",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T16:17:23.686Z"
+              "WhenOpened": "2024-10-02T17:46:55.227Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
+              "Title": "Taxi.cs",
+              "DocumentMoniker": "C:\\Users\\Blanca L\u00F3pez-Jorr\u00EDn\\Desktop\\3\u00BA iMat\\Paradigmas\\P1\\P1-vehicle_example\\Taxi.cs",
+              "RelativeDocumentMoniker": "Taxi.cs",
+              "ToolTip": "C:\\Users\\Blanca L\u00F3pez-Jorr\u00EDn\\Desktop\\3\u00BA iMat\\Paradigmas\\P1\\P1-vehicle_example\\Taxi.cs",
+              "RelativeToolTip": "Taxi.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T16:18:10.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "SpeedRadar.cs",
               "DocumentMoniker": "C:\\Users\\Blanca L\u00F3pez-Jorr\u00EDn\\Desktop\\3\u00BA iMat\\Paradigmas\\P1\\P1-vehicle_example\\SpeedRadar.cs",
               "RelativeDocumentMoniker": "SpeedRadar.cs",
               "ToolTip": "C:\\Users\\Blanca L\u00F3pez-Jorr\u00EDn\\Desktop\\3\u00BA iMat\\Paradigmas\\P1\\P1-vehicle_example\\SpeedRadar.cs",
               "RelativeToolTip": "SpeedRadar.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwCsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T16:22:24.918Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UnregisteredVehicle.cs",
-              "DocumentMoniker": "C:\\Users\\Blanca L\u00F3pez-Jorr\u00EDn\\Desktop\\3\u00BA iMat\\Paradigmas\\P1\\P1-vehicle_example\\UnregisteredVehicle.cs",
-              "RelativeDocumentMoniker": "UnregisteredVehicle.cs",
-              "ToolTip": "C:\\Users\\Blanca L\u00F3pez-Jorr\u00EDn\\Desktop\\3\u00BA iMat\\Paradigmas\\P1\\P1-vehicle_example\\UnregisteredVehicle.cs",
-              "RelativeToolTip": "UnregisteredVehicle.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwDAAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Precinct.cs",
+              "DocumentMoniker": "C:\\Users\\Blanca L\u00F3pez-Jorr\u00EDn\\Desktop\\3\u00BA iMat\\Paradigmas\\P1\\P1-vehicle_example\\Precinct.cs",
+              "RelativeDocumentMoniker": "Precinct.cs",
+              "ToolTip": "C:\\Users\\Blanca L\u00F3pez-Jorr\u00EDn\\Desktop\\3\u00BA iMat\\Paradigmas\\P1\\P1-vehicle_example\\Precinct.cs",
+              "RelativeToolTip": "Precinct.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T18:30:46.375Z"
+              "WhenOpened": "2024-09-30T08:11:43.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "City.cs",
+              "DocumentMoniker": "C:\\Users\\Blanca L\u00F3pez-Jorr\u00EDn\\Desktop\\3\u00BA iMat\\Paradigmas\\P1\\P1-vehicle_example\\City.cs",
+              "RelativeDocumentMoniker": "City.cs",
+              "ToolTip": "C:\\Users\\Blanca L\u00F3pez-Jorr\u00EDn\\Desktop\\3\u00BA iMat\\Paradigmas\\P1\\P1-vehicle_example\\City.cs",
+              "RelativeToolTip": "City.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwAsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T08:28:00.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Scooter.cs",
+              "DocumentMoniker": "C:\\Users\\Blanca L\u00F3pez-Jorr\u00EDn\\Desktop\\3\u00BA iMat\\Paradigmas\\P1\\P1-vehicle_example\\Scooter.cs",
+              "RelativeDocumentMoniker": "Scooter.cs",
+              "ToolTip": "C:\\Users\\Blanca L\u00F3pez-Jorr\u00EDn\\Desktop\\3\u00BA iMat\\Paradigmas\\P1\\P1-vehicle_example\\Scooter.cs",
+              "RelativeToolTip": "Scooter.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T18:46:44.539Z"
             },
             {
               "$type": "Document",
@@ -88,58 +129,34 @@
               "RelativeDocumentMoniker": "Main.cs",
               "ToolTip": "C:\\Users\\Blanca L\u00F3pez-Jorr\u00EDn\\Desktop\\3\u00BA iMat\\Paradigmas\\P1\\P1-vehicle_example\\Main.cs",
               "RelativeToolTip": "Main.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-05T08:22:46.009Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Precinct.cs",
-              "DocumentMoniker": "C:\\Users\\Blanca L\u00F3pez-Jorr\u00EDn\\Desktop\\3\u00BA iMat\\Paradigmas\\P1\\P1-vehicle_example\\Precinct.cs",
-              "RelativeDocumentMoniker": "Precinct.cs",
-              "ToolTip": "C:\\Users\\Blanca L\u00F3pez-Jorr\u00EDn\\Desktop\\3\u00BA iMat\\Paradigmas\\P1\\P1-vehicle_example\\Precinct.cs",
-              "RelativeToolTip": "Precinct.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "UnregisteredVehicle.cs",
+              "DocumentMoniker": "C:\\Users\\Blanca L\u00F3pez-Jorr\u00EDn\\Desktop\\3\u00BA iMat\\Paradigmas\\P1\\P1-vehicle_example\\UnregisteredVehicle.cs",
+              "RelativeDocumentMoniker": "UnregisteredVehicle.cs",
+              "ToolTip": "C:\\Users\\Blanca L\u00F3pez-Jorr\u00EDn\\Desktop\\3\u00BA iMat\\Paradigmas\\P1\\P1-vehicle_example\\UnregisteredVehicle.cs",
+              "RelativeToolTip": "UnregisteredVehicle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T08:11:43.121Z"
+              "WhenOpened": "2024-10-01T18:30:46.375Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Scooter.cs",
-              "DocumentMoniker": "C:\\Users\\Blanca L\u00F3pez-Jorr\u00EDn\\Desktop\\3\u00BA iMat\\Paradigmas\\P1\\P1-vehicle_example\\Scooter.cs",
-              "RelativeDocumentMoniker": "Scooter.cs",
-              "ToolTip": "C:\\Users\\Blanca L\u00F3pez-Jorr\u00EDn\\Desktop\\3\u00BA iMat\\Paradigmas\\P1\\P1-vehicle_example\\Scooter.cs",
-              "RelativeToolTip": "Scooter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\Blanca L\u00F3pez-Jorr\u00EDn\\Desktop\\3\u00BA iMat\\Paradigmas\\P1\\P1-vehicle_example\\Vehicle.cs",
+              "RelativeDocumentMoniker": "Vehicle.cs",
+              "ToolTip": "C:\\Users\\Blanca L\u00F3pez-Jorr\u00EDn\\Desktop\\3\u00BA iMat\\Paradigmas\\P1\\P1-vehicle_example\\Vehicle.cs",
+              "RelativeToolTip": "Vehicle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T18:46:44.539Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Taxi.cs",
-              "DocumentMoniker": "C:\\Users\\Blanca L\u00F3pez-Jorr\u00EDn\\Desktop\\3\u00BA iMat\\Paradigmas\\P1\\P1-vehicle_example\\Taxi.cs",
-              "RelativeDocumentMoniker": "Taxi.cs",
-              "ToolTip": "C:\\Users\\Blanca L\u00F3pez-Jorr\u00EDn\\Desktop\\3\u00BA iMat\\Paradigmas\\P1\\P1-vehicle_example\\Taxi.cs",
-              "RelativeToolTip": "Taxi.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T16:18:10.394Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "City.cs",
-              "DocumentMoniker": "C:\\Users\\Blanca L\u00F3pez-Jorr\u00EDn\\Desktop\\3\u00BA iMat\\Paradigmas\\P1\\P1-vehicle_example\\City.cs",
-              "RelativeDocumentMoniker": "City.cs",
-              "ToolTip": "C:\\Users\\Blanca L\u00F3pez-Jorr\u00EDn\\Desktop\\3\u00BA iMat\\Paradigmas\\P1\\P1-vehicle_example\\City.cs",
-              "RelativeToolTip": "City.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAkwBQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T08:28:00.741Z"
+              "WhenOpened": "2024-09-16T16:17:23.686Z"
             }
           ]
         }

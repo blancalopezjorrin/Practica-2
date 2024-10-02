@@ -12,17 +12,22 @@
             Console.WriteLine(precinct.WriteMessage("Created"));
 
             Taxi taxi1 = new Taxi("0001 AAA", city);
+            Console.WriteLine(taxi1.WriteMessage("Created"));
+
+
             Taxi taxi2 = new Taxi("0002 BBB", city);
+            Console.WriteLine(taxi2.WriteMessage("Created"));
 
 
             SpeedRadar radar1 = new SpeedRadar();
             PoliceCar policeCar1 = new PoliceCar("0001 CNP", precinct, radar1);
 
             PoliceCar policeCar2 = new PoliceCar("0002 CNP", precinct);
+            PoliceCar policeCar3 = new PoliceCar("0003 CNP", precinct);
+
             Scooter scooter = new Scooter();
 
-            Console.WriteLine(taxi1.WriteMessage("Created"));
-            Console.WriteLine(taxi2.WriteMessage("Created"));
+            policeCar3.StartPatrolling();
 
             policeCar1.StartPatrolling();
             policeCar1.UseRadar(taxi1);
